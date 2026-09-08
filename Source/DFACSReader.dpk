@@ -1,0 +1,15 @@
+package DFACSReader;
+
+{$DESCRIPTION 'DF ACS Reader runtime - delphifan.com'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  DFWinSCard in 'DFWinSCard.pas',
+  DFACSReader in 'DFACSReader.pas';
+
+end.

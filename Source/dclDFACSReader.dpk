@@ -1,0 +1,17 @@
+package dclDFACSReader;
+
+{$DESCRIPTION 'DF ACS Reader components - delphifan.com'}
+{$DESIGNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  designide;
+
+contains
+  DFWinSCard in 'DFWinSCard.pas',
+  DFACSReader in 'DFACSReader.pas',
+  DFACSReaderReg in 'DFACSReaderReg.pas';
+
+end.
