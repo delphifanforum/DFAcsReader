@@ -1,5 +1,7 @@
 # DF ACS Reader
 
+![Screen](acsreader.png)
+
 VCL component for reading UID from ACS / ACR contactless readers on Windows.
 
 It talks to the Windows Smart Card API (`winscard.dll` / PC/SC).
