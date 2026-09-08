@@ -1,0 +1,23 @@
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{B7C8A1D2-4E5F-4A6B-8C9D-0E1F2A3B4C5D}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Projects Include="Source\DFACSReader.dpk">
+      <Dependencies/>
+    </Projects>
+    <Projects Include="Source\dclDFACSReader.dpk">
+      <Dependencies>Source\DFACSReader.dpk</Dependencies>
+    </Projects>
+    <Projects Include="Demo\DFACSReaderDemo.dpr">
+      <Dependencies>Source\DFACSReader.dpk</Dependencies>
+    </Projects>
+  </ItemGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Default.Personality.12</Borland.Personality>
+    <Borland.ProjectType/>
+    <BorlandProject>
+      <Default.Personality/>
+    </BorlandProject>
+  </ProjectExtensions>
+</Project>
